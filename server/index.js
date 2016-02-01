@@ -24,6 +24,7 @@ Meteor.methods({
             Version: 'v1'
         };
 
+
         credentials.AuthenticationURL = credentials.BaseUrl + '/authentication/' + credentials.Version + '/authenticate'
 
         //must use synchronous mode

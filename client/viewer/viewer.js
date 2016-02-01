@@ -23,7 +23,7 @@ Template.viewer.onCreated(function(){
 
 var initViewer = function (token) {
 
-    var defaultUrn = 'dXJuOmFkc2sub2JqZWN0czpvcy5vYmplY3Q6bW9kZWwyMDE2LTAxLTI4LTAyLTQ0LTM2LWlkbWpjajl5ZXlnYzhwN3h5bDBwZXB5dm54OWkvZ2F0ZWhvdXNlLm53ZA==';
+    var defaultUrn = 'dXJuOmFkc2sub2JqZWN0czpvcy5vYmplY3Q6bW9kZWwyMDE2LTAyLTAxLTA5LTM2LTQ1LWtubXRvdnV2azZrc2swc3V0aG9hNDZ4cDJkenEvUm9ib3RBcm0uZHdmeA==';
 
     if (defaultUrn.indexOf('urn:') !== 0)
         defaultUrn = 'urn:' + defaultUrn;
