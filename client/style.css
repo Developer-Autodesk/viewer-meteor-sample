@@ -1,0 +1,9 @@
+/* CSS declarations go here */
+
+.viewer {
+
+    background-color: darksalmon;
+    height: 500px;
+    width: 800px;
+    position: relative;
+}
