@@ -19,7 +19,8 @@ Meteor.methods({
                 grant_type: 'client_credentials'
             },
 
-            // If you which to use the Autodesk View & Data API on the staging server, change this url
+            // If you want to use the Autodesk View & Data API on the staging server, change this url to
+            // https://developer-stg.api.autodesk.com
             BaseUrl: 'https://developer.api.autodesk.com',
             Version: 'v1'
         };
